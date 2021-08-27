@@ -27,9 +27,10 @@
       <guid>https://amwyyyy.github.io/notes/bootstrap%E9%85%8D%E7%BD%AE%E4%B8%A2%E5%A4%B1/</guid>
       <description>&lt;p&gt;问题现象&lt;/p&gt;
 &lt;p&gt;同事反馈他的工程启动的时候会建两个日志目录，其中一个名称是log.base_IS_UNDEFINED&lt;/p&gt;
-&lt;p&gt;![image-20210517101517333](/Users/denis/Library/Mobile Documents/com~apple~CloudDocs/笔记/assets/image-20210517101517333.png)&lt;/p&gt;
-&lt;p&gt;项目的结构是spring-boot项目，有引入spring-cloud组件。&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;
+        &lt;img class=&#34;mx-auto&#34; alt=&#34;image-20210517101517333&#34; src=&#34;../assets/image-20210517101517333.png&#34; /&gt;   
+    &lt;/p&gt;
+&lt;p&gt;项目的结构是spring-boot项目，有引入spring-cloud组件。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,7 +41,7 @@
       <guid>https://amwyyyy.github.io/notes/es/</guid>
       <description>&lt;h3 id=&#34;数据类型&#34;&gt;数据类型&lt;/h3&gt;
 &lt;p&gt;
-        &lt;img class=&#34;mx-auto&#34; alt=&#34;img&#34; src=&#34;./assets/168ea04367eb6dceimageslim.png&#34; /&gt;   
+        &lt;img class=&#34;mx-auto&#34; alt=&#34;img&#34; src=&#34;../assets/168ea04367eb6dceimageslim.png&#34; /&gt;   
     &lt;/p&gt;
 &lt;h5 id=&#34;text-类型&#34;&gt;text 类型&lt;/h5&gt;
 &lt;ul&gt;
@@ -84,15 +85,6 @@ git clone git@git.zjcs.com:denis.huang/denis-test.git
       <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
       
       <guid>https://amwyyyy.github.io/about/my-first-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://amwyyyy.github.io/notes/my-first-post/</link>
-      <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
-      
-      <guid>https://amwyyyy.github.io/notes/my-first-post/</guid>
       <description></description>
     </item>
     
