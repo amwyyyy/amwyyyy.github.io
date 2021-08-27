@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Denis的博客</title>
-    <link>http://example.org/</link>
+    <link>https://amwyyyy.github.io/</link>
     <description>Recent content on Denis的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Aug 2021 15:05:17 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Aug 2021 15:05:17 +0800</lastBuildDate><atom:link href="https://amwyyyy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>http://example.org/post/git/</link>
+      <link>https://amwyyyy.github.io/post/git/</link>
       <pubDate>Fri, 27 Aug 2021 15:05:17 +0800</pubDate>
       
-      <guid>http://example.org/post/git/</guid>
+      <guid>https://amwyyyy.github.io/post/git/</guid>
       <description>git 从git仓库中拷贝项目
  git clone git@git.zjcs.com:denis.huang/denis-test.git
  添加文件到git缓存
@@ -25,10 +25,10 @@
     
     <item>
       <title>My First Post</title>
-      <link>http://example.org/books/my-first-post/</link>
+      <link>https://amwyyyy.github.io/books/my-first-post/</link>
       <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
       
-      <guid>http://example.org/books/my-first-post/</guid>
+      <guid>https://amwyyyy.github.io/books/my-first-post/</guid>
       <description></description>
     </item>
     
