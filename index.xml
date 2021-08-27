@@ -5,7 +5,7 @@
     <link>https://amwyyyy.github.io/</link>
     <description>Recent content on Denis的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Fri, 27 Aug 2021 15:05:17 +0800</lastBuildDate><atom:link href="https://amwyyyy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
@@ -16,19 +16,92 @@
       <description>git 从git仓库中拷贝项目
  git clone git@git.zjcs.com:denis.huang/denis-test.git
  添加文件到git缓存
- git add  查看项目当前状态
- git status -s (-s 参数是显示简要信息)
-??是未纳入版本管理，A是新增加文件， M有改动文件
- 将缓存内容添加到本地仓库中
- git commit -m &amp;lsquo;提交信息&amp;rsquo; (-m是备注信息，-a参数可以省略git add)</description>
+ git add  查看项目当前状态</description>
+    </item>
+    
+    <item>
+      <title>bootstrap配置丢失</title>
+      <link>https://amwyyyy.github.io/notes/bootstrap%E9%85%8D%E7%BD%AE%E4%B8%A2%E5%A4%B1/</link>
+      <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
+      
+      <guid>https://amwyyyy.github.io/notes/bootstrap%E9%85%8D%E7%BD%AE%E4%B8%A2%E5%A4%B1/</guid>
+      <description>&lt;p&gt;问题现象&lt;/p&gt;
+&lt;p&gt;同事反馈他的工程启动的时候会建两个日志目录，其中一个名称是log.base_IS_UNDEFINED&lt;/p&gt;
+&lt;p&gt;![image-20210517101517333](/Users/denis/Library/Mobile Documents/com~apple~CloudDocs/笔记/assets/image-20210517101517333.png)&lt;/p&gt;
+&lt;p&gt;项目的结构是spring-boot项目，有引入spring-cloud组件。&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>es</title>
+      <link>https://amwyyyy.github.io/notes/es/</link>
+      <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
+      
+      <guid>https://amwyyyy.github.io/notes/es/</guid>
+      <description>&lt;h3 id=&#34;数据类型&#34;&gt;数据类型&lt;/h3&gt;
+&lt;p&gt;
+        &lt;img class=&#34;mx-auto&#34; alt=&#34;img&#34; src=&#34;./assets/168ea04367eb6dceimageslim.png&#34; /&gt;   
+    &lt;/p&gt;
+&lt;h5 id=&#34;text-类型&#34;&gt;text 类型&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;特性：分词，将大段的文字根据分词器切分成独立的词或者词组，以便全文检索;&lt;/li&gt;
+&lt;li&gt;适用：email 内容、产品的描述等需要分词并全文检索的字段；&lt;/li&gt;
+&lt;li&gt;不适用：精准查询、过滤、排序或聚合（Significant Terms 聚合例外）。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://amwyyyy.github.io/notes/git/</link>
+      <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
+      
+      <guid>https://amwyyyy.github.io/notes/git/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 从git仓库中拷贝项目&lt;/span&gt;
+git clone git@git.zjcs.com:denis.huang/denis-test.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>json格式化</title>
+      <link>https://amwyyyy.github.io/notes/json%E6%A0%BC%E5%BC%8F%E5%8C%96/</link>
+      <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
+      
+      <guid>https://amwyyyy.github.io/notes/json%E6%A0%BC%E5%BC%8F%E5%8C%96/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://amwyyyy.github.io/books/my-first-post/</link>
+      <link>https://amwyyyy.github.io/about/my-first-post/</link>
       <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
       
-      <guid>https://amwyyyy.github.io/books/my-first-post/</guid>
+      <guid>https://amwyyyy.github.io/about/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://amwyyyy.github.io/notes/my-first-post/</link>
+      <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
+      
+      <guid>https://amwyyyy.github.io/notes/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://amwyyyy.github.io/share/my-first-post/</link>
+      <pubDate>Fri, 27 Aug 2021 14:58:19 +0800</pubDate>
+      
+      <guid>https://amwyyyy.github.io/share/my-first-post/</guid>
       <description></description>
     </item>
     

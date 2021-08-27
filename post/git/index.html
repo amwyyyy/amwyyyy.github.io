@@ -1,10 +1,12 @@
 <!doctype html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
     
 
     <title>Git | Denis的博客</title>
@@ -19,7 +21,7 @@
     <meta name="Keywords" content="">
     <meta name="description" content="Git">
         
-    <meta name="author" content="">
+    <meta name="author" content="Denis">
     <meta property="og:url" content="https://amwyyyy.github.io/post/git/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
@@ -52,9 +54,9 @@
                 <nav id="nav-menu" class="clearfix">
                     <a class="current" href="https://amwyyyy.github.io/">首页</a>
                     
-                    <a  href="https://amwyyyy.github.io/books/" title="新书">新书</a>
+                    <a  href="https://amwyyyy.github.io/notes/" title="笔记">笔记</a>
                     
-                    <a  href="https://amwyyyy.github.io/archives/" title="归档">归档</a>
+                    <a  href="https://amwyyyy.github.io/share/" title="分享">分享</a>
                     
                     <a  href="https://amwyyyy.github.io/about/" title="关于">关于</a>
                     
@@ -71,7 +73,108 @@
                 <div class="col-8" id="main">
                     
 <div class="res-cons">
-    
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#git">git</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if(leftPos<220){
+                postToc.css({"width":leftPos-10,"margin-left":(0-leftPos)})
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+    })
+</script>
     <article class="post">
         <header>
             <h1 class="post-title">Git</h1>
@@ -80,6 +183,11 @@
             2021年8月27日
         </date>
         
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
         
         
         <div class="post-content">
@@ -277,7 +385,7 @@ git push -u origin master
 
                     <footer id="footer">
     <div>
-        &copy; 2021 <a href="https://amwyyyy.github.io/">Denis的博客 By </a>
+        &copy; 2021 <a href="https://amwyyyy.github.io/">Denis的博客 By Denis</a>
         
     </div>
     <br />
@@ -311,6 +419,8 @@ git push -u origin master
 
 
 
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
 
 
 
@@ -318,7 +428,7 @@ git push -u origin master
 
                 <div id="secondary">
     <section class="widget">
-        <form id="search" action='//www.google.com/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='https://amwyyyy.github.io/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
       <input type="hidden" name="sitesearch" value="https://amwyyyy.github.io/">
@@ -343,12 +453,20 @@ git push -u origin master
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
+    <li><a href="https://amwyyyy.github.io/categories/es/">es (1)</a></li>
+    
+    <li><a href="https://amwyyyy.github.io/categories/git/">git (1)</a></li>
+    
 </ul>
     </section>
 
     <section class="widget">
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
+    
+    <a href="https://amwyyyy.github.io/tags/es/">es</a>
+    
+    <a href="https://amwyyyy.github.io/tags/git/">git</a>
     
 </div>
     </section>
